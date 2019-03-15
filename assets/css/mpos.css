@@ -5,10 +5,16 @@
 }
 
 html, body {
+	font-family: 'Helvetica', 'Oswald', 'Josefin Sans', 'Lilita One', 'Cabin', sans-serif;
 	background-color: #efefef;
-	font-family: GothamRounded
 }
 
+h1 {
+	font-family: 'Lilita One',sans-serif;
+}
+h2 {
+	font-family: 'Cabin', sans-serif;
+}
 
 .head-title { width: 60% }
 
@@ -69,16 +75,15 @@ html, body {
 
 /* Navbar */
 /* ============= */
-.navbar-brand {
-
+.navbar-nav {
+	font-family: 'Josefin Sans',sans-serif;
 }
 
 /* Banner */
 /* ============= */
-.banner-page {
-	/* height: 100vh; */
+.banner-page h1 {
+	font-family: 'Lilita One', sans-serif;
 }
-
 
 /* Brand */
 /* ============= */
