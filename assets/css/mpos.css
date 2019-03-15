@@ -5,29 +5,29 @@
 }
 
 html, body {
-	background-color: #efefef
+	background-color: #efefef;
+	font-family: GothamRounded
 }
 
 
 .head-title { width: 60% }
-a:hover { text-decoration: none }
-.text-bold { font-weight: bold}
 
 /* Background & Color Custom */
-.bg-navy {
-	background-color: #29303e;
-}
-.bg-orange {
-	background-color: #fb7c3b;
-}
-.bg-white {
-	background-color: #ffffff;
-}
+.size-10 { width: 10% !important}
+.size-25 { width: 25% !important}
+.size-50 { width: 50% }
+.size-100 { width: 100% }
 
-.text-grey {
-	color: #868686;
-}
+.bg-navy { background-color: #29303e }
+.bg-orange { background-color: #fb7c3b }
+.bg-white { background-color: #ffffff }
+.bg-grevy { background-color: #6c757d}
 
+.text-black { color: #000000}
+.text-green { color: #1dda1d }
+.text-grevy { color: #6c757d}
+
+.no-border { border: none; border-radius: 0}
 /* Button Custom */
 .btn {
 	padding: 9px 15px;
@@ -62,13 +62,10 @@ a:hover { text-decoration: none }
 	.separator-inverse{transform:rotate(180deg)}
 	.separator-skew{height:60px}
 
-	.fill-white {
-		fill: #efefef;
-	}
+	.fill-white { fill: #efefef }
+	.fill-navy { fill: #29303e }
 
-	.fill-navy {
-		fill: #29303e;
-	}
+
 
 /* Navbar */
 /* ============= */
@@ -126,6 +123,37 @@ a:hover { text-decoration: none }
 
 /* How it's Works */
 /* ============= */
-.works {
-	
+.works .btn {
+	border-color: #1dda1d;
+}
+
+.works .btn:hover {
+	background-color: #1dda1d;
+}
+
+.works .separator {
+	position: relative;
+}
+
+
+/* Service Machine POS */
+/* ============= */
+
+/* Testimonial */
+/* ============= */
+
+/* Label */
+/* ============= */
+
+/* Footer */
+/* ============= */
+.main-area-footer ul {
+	padding: 0;
+}
+.main-area-footer ul li {
+	list-style: none;
+}
+.main-area-footer ul li a {
+	text-decoration: none;
+	color: #6c757d;
 }
