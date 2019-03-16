@@ -1,4 +1,21 @@
 $(document).ready(function () {
+    $('.owl-home').owlCarousel({
+        touchDrag: false,
+        mouseDrag: false,
+        margin: 10,
+        loop: true,
+        drag: false,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        animateOut: 'slideOutDown',
+        animateIn: 'flipInX',
+        items:1,
+        margin:30,
+        stagePadding:30,
+        smartSpeed:450
+    });
+    owl.off('drag', '.owl-home');
+
     $('.owl-one').owlCarousel({
         margin: 10,
         loop: true,
