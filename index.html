@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="assets/css/animate.min.css">
 
     <!-- BOOTSTRAP CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">
+
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/bootstrap-grid.min.css">
     
@@ -19,6 +21,10 @@
     <!-- CSS CUSTOM &  -->
     <link rel="stylesheet" href="assets/css/mpos.css">
 
+    <link rel="stylesheet" href="assets/css/collapse-footer.scss">
+
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
     <!-- FONTS GOOGLE -->
     <link href="https://fonts.googleapis.com/css?family=Cabin:400,500,600i,700|Josefin+Sans:400,400i,700,700i|Lilita+One|Oswald:300,400,500,700" rel="stylesheet">
 </head>
@@ -26,7 +32,7 @@
     <nav class="navbar navbar-expand-lg overflow-hidden navbar-fixed-top navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img class="img-fluid" src="assets/images/logo.png" alt="">
+                <img class="img-fluid w-25" src="assets/images/logo.png" alt="">
             </a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -89,7 +95,7 @@
 
     <div class="brand text-right mb-5">
         <div class="container">
-            <ul class="list-inline">
+            <ul class="list-inline text-center">
                 <li class="list-inline-item">
                     <a href="">
                         <img src="assets/images/the-business-times.png" alt="Business times">
@@ -404,7 +410,7 @@
         </div>
     </div>
 
-    <footer class="footer bg-white ">
+    <footer class="footer footer-collapse bg-white ">
         <div class="container py-4">
             <div class="row no-gutters">
                 <div class="col-12 col-sm-12 col-md-5">
@@ -413,52 +419,124 @@
                 </div>
                 <div class="col-12 col-md-7 col-sm-12">
                     <div class="row main-area-footer">
-                        <div class="col-6 col-md-4 col-sm-6">
-                            <h6 class="text-uppercase font-weight-bold">Bantuan</h6>
-                            <ul>
-                                <li><a href="">Hubungi Kami</a></li>
-                                <li><a href="">Support Center</a></li>
-                                <li><a href="">Video Tutorial</a></li>
-                                <li><a href="">Knowledge Center</a></li>
-                                <li><a href="">Panduan Penggunaan</a></li>
-                            </ul>
+                        <div class="col-12 col-md-4 col-sm-6">
+                            <div class="widget hidden-xs-down">
+                                <h6 class="text-uppercase font-weight-bold">Bantuan</h6>
+                                <ul class="widget-list list-unstyled p-0">
+                                    <ul class="widget-list list-unstyled p-0 ">
+                                        <li><a href="">Hubungi Kami</a></li>
+                                        <li><a href="">Support Center</a></li>
+                                        <li><a href="">Video Tutorial</a></li>
+                                        <li><a href="">Knowledge Center</a></li>
+                                        <li><a href="">Panduan Penggunaan</a></li>
+                                    </ul>
+                                </ul>
+                            </div>
+                            <div id="accordion" role="tablist" aria-multiselectable="true" class="widget hidden-sm-up">
+                                <div role="tab" id="headingOne">
+                                    <h6 class="card-header border-0 text-uppercase font-weight-bold ">
+                                        <a class="text-black text-decoration-none" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                            Bantuan
+                                        </a>
+                                    </h6>
+                                </div>
+                                <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+                                    <div class="card-block">
+                                        <ul class="widget-list list-unstyled p-0">
+                                            <li><a href="">Hubungi Kami</a></li>
+                                            <li><a href="">Support Center</a></li>
+                                            <li><a href="">Video Tutorial</a></li>
+                                            <li><a href="">Knowledge Center</a></li>
+                                            <li><a href="">Panduan Penggunaan</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-6 col-md-4 col-sm-6">
-                            <h6 class="text-uppercase font-weight-bold">Undangan</h6>
-                            <ul>
-                                <li><a href="">Developers</a></li>
-                                <li><a href="">Getting Started</a></li>
-                                <li><a href="">API Reference</a></li>
-                                <li><a href="">Developer Terms</a></li>
-                            </ul>
+                        <div class="col-12 col-md-4 col-sm-6">
+                            <div class="widget hidden-xs-down">
+                                <h6 class="text-uppercase font-weight-bold">Undangan</h6>
+                                <ul class="widget-list list-unstyled p-0">
+                                    <ul class="widget-list list-unstyled p-0">
+                                        <li><a href="">Developers</a></li>
+                                        <li><a href="">Getting Started</a></li>
+                                        <li><a href="">API Reference</a></li>
+                                        <li><a href="">Developer Terms</a></li>
+                                    </ul>
+                                </ul>
+                            </div>
+                            <div id="accordion" role="tablist" aria-multiselectable="true" class="widget hidden-sm-up">
+                                <div role="tab" id="headingTwo">
+                                    <h6 class="card-header border-0 text-uppercase font-weight-bold">
+                                        <a class="text-black text-decoration-none" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            Undangan
+                                        </a>
+                                    </h6>
+                                </div>
+                                <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                    <div class="card-block">
+                                        <ul class="widget-list list-unstyled p-0">
+                                            <li><a href="">Developers</a></li>
+                                            <li><a href="">Getting Started</a></li>
+                                            <li><a href="">API Reference</a></li>
+                                            <li><a href="">Developer Terms</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-12 col-md-4 ">
-                            <h6 class="text-uppercase font-weight-bold">Tentang Kami</h6>
-                            <ul class="">
-                                <li class=""><a href="">Informasi Machine POS</a></li>
-                                <li><a href="">Berita</a></li>
-                                <li><a href="">Blog</a></li>
-                                <li><a href="">Karir</a></li>
-    
-                                
-                            </ul>
+                        <div class="col-12 col-md-4 col-sm-6 ">
+                            <div class="widget hidden-xs-down">
+                                <h6 class="text-uppercase font-weight-bold">Tentang Kami</h6>
+                                <ul class="widget-list list-unstyled p-0">
+                                    <ul class="widget-list list-unstyled p-0">
+                                        <li><a href="">Informasi Machine POS</a></li>
+                                        <li><a href="">Berita</a></li>
+                                        <li><a href="">Blog</a></li>
+                                        <li><a href="">Karir</a></li>
+                                    </ul>
+                                </ul>
+                            </div>
+                            <div id="accordion" role="tablist" aria-multiselectable="true" class="widget hidden-sm-up">
+                                <div role="tab" id="headingThree">
+                                    <h6 class="card-header border-0 text-uppercase font-weight-bold">
+                                        <a class="text-black text-decoration-none" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            Tentang Kami
+                                        </a>
+                                    </h6>
+                                </div>
+                                <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+                                    <div class="card-block">
+                                        <ul class="widget-list list-unstyled p-0">
+                                            <li><a href="">Informasi Machine POS</a></li>
+                                            <li><a href="">Berita</a></li>
+                                            <li><a href="">Blog</a></li>
+                                            <li><a href="">Karir</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
         </div>
-        <div class="bg-halfgrey  py-3">
+        <div class="bg-navy pt-3">
             <div class="container">
                 <div class="row">
-                    <ul class="list-inline mx-auto my-0">
-                        <li class="list-inline-item"><a href=""><img class="img-fluid w-75" src="assets/images/icons/01.png" alt=""></a></li>
-                        <li class="list-inline-item"><a href=""><img class="img-fluid w-75" src="assets/images/icons/02.png" alt=""></a></li>
-                        <li class="list-inline-item"><a href=""><img class="img-fluid w-75" src="assets/images/icons/03.png" alt=""></a></li>
-                        <li class="list-inline-item"><a target="_blank" href="https://www.instagram.com/alsharifsobswaretechnology/?hl=id"><img class="img-fluid w-75" src="assets/images/icons/04.png" alt=""></a></li>
-                        <li class="list-inline-item"><a href=""><img class="img-fluid w-75" src="assets/images/icons/05.png" alt=""></a></li>
-                        <li class="list-inline-item"><a href=""><img class="img-fluid w-75" src="assets/images/icons/06.png" alt=""></a></li>
+                    <ul class="list-inline mx-auto">
+                        <li class="list-inline-item"><a href=""><i class="fa fa-facebook-square fa-2x"></i></a></li>
+                        <li class="list-inline-item"><a href=""><i class="fa fa-twitter-square fa-2x"></i></a></li>
+                        <li class="list-inline-item"><a target="_blank" href="https://www.instagram.com/alsharifsobswaretechnology/?hl=id"><i class="fa fa-instagram fa-2x"></i></a></li>
+                        <li class="list-inline-item"><a href=""><i class="fa fa-youtube-square fa-2x"></i></a></li>
+                        <li class="list-inline-item"><a href=""><i class="fa fa-linkedin-square fa-2x"></i></a></li>
+                        <li class="list-inline-item"><a href=""><i class="fa fa-google-plus-square fa-2x"></i></a></li>
                     </ul>
+
+                    <div class="col-12 text-center">
+                        <p class="text-white">&copy; Copyright 2019 Sobsware. All Rights Reserved.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -467,6 +545,7 @@
 
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
