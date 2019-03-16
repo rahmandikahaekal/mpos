@@ -45,7 +45,7 @@ h2 {
 
 /* Separator  */
 .separator { 
-	position:absolute;
+	position: relative;;
 	z-index:1;
 	top:auto;
 	right:0;
@@ -75,6 +75,9 @@ h2 {
 
 /* Navbar */
 /* ============= */
+.navbar-light .navbar-brand {
+	width: 75%;
+}
 .navbar-nav {
 	font-family: 'Josefin Sans',sans-serif;
 }
@@ -83,6 +86,9 @@ h2 {
 /* ============= */
 .banner-page h1 {
 	font-family: 'Lilita One', sans-serif;
+}
+.banner-page .separator {
+	position: absolute;
 }
 
 /* Brand */
@@ -161,4 +167,16 @@ h2 {
 .main-area-footer ul li a {
 	text-decoration: none;
 	color: #6c757d;
+}
+
+@media (min-width: 576px) { 
+	nav.navbar a.navbar-brand img.img-fluid {
+		width: 25%;
+	}
+ }
+
+@media (max-width: 575.98px) { 
+	nav.navbar a.navbar-brand img.img-fluid {
+		width: 75%;
+	}
 }
