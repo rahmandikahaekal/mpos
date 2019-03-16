@@ -14,7 +14,6 @@ $(document).ready(function () {
         stagePadding:30,
         smartSpeed:450
     });
-    owl.off('drag', '.owl-home');
 
     $('.owl-one').owlCarousel({
         margin: 10,
