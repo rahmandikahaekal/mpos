@@ -33,6 +33,27 @@ $(document).ready(function () {
         }
     });
 
+    $('.owl-brand').owlCarousel({
+        loop:true,
+        margin: 30,
+        autoplay: false,
+        dots: false,
+        responsive : {
+            0: {
+                items: 2
+            },
+            425: {
+                items: 3
+            },
+            768: {
+                items: 4
+            },
+            800: {
+                items: 5
+            }
+        }
+    })
+
     $('.owl-two').owlCarousel({
         loop:true,
         margin:10,
