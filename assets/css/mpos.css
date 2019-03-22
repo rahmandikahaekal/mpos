@@ -180,7 +180,7 @@ footer div#collapseThree > div > ul > li > a {
 .border-bot {
 	border-bottom: 1px dotted #c6c6c6;
 }
-.main_product_content ul {
+.main_product_content div.product-wrap ul {
 	list-style: none;
 }
 .main_product_content ul li {
@@ -279,6 +279,80 @@ footer div#collapseThree > div > ul > li > a {
 }
 
 /* Product Wrap Detail */
+.main_product_content .product-wrap-detail .block-product figure:first-child,
+.main_product_content .product-wrap-detail .list-block {
+	width: 100%;
+}
+.main_product_area .product-wrap-detail .block-product {
+	background: #FFF;
+    -webkit-box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+    border-bottom: 3px solid #005BAC;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.main_product_content .product-wrap-detail .block-product {
+	margin-bottom: 20px; 
+}
+.main_product_content .desc-product .specification-product table {
+	width: 100%;
+    background-color: #FFF;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #D4D4D4;
+    margin: 0 0 18px 0;
+}
+.main_product_content .desc-product .specification-product table th {
+    background-color: #f0f0f0;
+    padding: 5px;
+    font-size: 0.9em;
+    line-height: 145%;
+    border: 1px solid #D4D4D4;
+    color: #3f3f3f;
+}
+.main_product_content .desc-product .specification-product table tr:first-child>th {
+    background-color: #E4E6E9;
+    color: #005BAC;
+    text-transform: uppercase;
+}
+.main_product_area .desc-product .specification-product table td {
+	background-color: transparent;
+    padding: 5px;
+    font-size: 0.9em;
+    line-height: 145%;
+    border: 1px solid #D4D4D4;
+}
+
+
+.main_product_area .desc-product img.zoom {
+	width: 100%;
+	height: 200px;
+	border-radius:5px;
+	object-fit:cover;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+}
+
+
+.main_product_area .desc-product .transition {
+	-webkit-transform: scale(1.2); 
+	-moz-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	transform: scale(1.2);
+}
+.main_product_area .desc-product .modal-header {
+	border-bottom: none;
+}
+.main_product_area .desc-product .modal-title {
+	color:#000;
+}
+.main_product_area .desc-product .modal-footer{
+	display:none;  
+}
+
 
 /* HOT PRODUCT */
 .main_product_area .hot-product .list-block {
