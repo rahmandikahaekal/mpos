@@ -279,21 +279,6 @@ footer div#collapseThree > div > ul > li > a {
 }
 
 /* Product Wrap Detail */
-.main_product_content .product-wrap-detail .block-product figure:first-child,
-.main_product_content .product-wrap-detail .list-block,
-.main_product_content .list-block {
-	width: 100%;
-}
-.main_product_area .product-wrap-detail .block-product {
-	background: #FFF;
-    -webkit-box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
-    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
-    border-bottom: 3px solid #005BAC;
-    border-radius: 5px;
-    padding: 10px 20px;
-}
-
 
 /* HOT PRODUCT */
 .main_product_area .hot-product .list-block {
