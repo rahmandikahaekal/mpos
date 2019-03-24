@@ -353,6 +353,10 @@ footer div#collapseThree > div > ul > li > a {
 	display:none;  
 }
 
+.main_product_content #myTabContent {
+	border: 1px solid #ddd;
+    border-top: none;
+}
 
 /* HOT PRODUCT */
 .main_product_area .hot-product .list-block {
@@ -430,6 +434,10 @@ footer div#collapseThree > div > ul > li > a {
 	}
 	.main_product_content .list-block {
 		width: 56%;
+	}
+
+	.main_product_content #myTabContent div.list-block {
+		width: 100%;
 	}
 }
 

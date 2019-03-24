@@ -70,5 +70,14 @@ $(document).ready(function () {
                 items:1
             }
         }
-    });
+    })
+
+    // Product Slide
+    $('.owl-product').owlCarousel({
+        margin: 10,
+        loop: true,
+        animateOut: 'SlideOut',
+        animateIn: 'SlideIn',
+        items:1,
+    })
 })
