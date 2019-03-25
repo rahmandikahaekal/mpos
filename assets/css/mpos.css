@@ -386,12 +386,18 @@ footer div#collapseThree > div > ul > li > a {
 }
 
 /* Contact Page */
+body.contact {
+	background: url(../images/banner-contact-us-548af15e70e2a9e1fb1dc89c0ac1f213.jpg) center center/cover no-repeat #1d8ce0;
+	background-size: cover;
+	min-height: 730.65px;
+	border-radius: 0px;
+}
 div.main_contact_area > table > tbody > tr > td {
 	color: #fff;
 }
 
 @media (max-width: 376.98px) {
-	/* Contact Page */
+	/* Contact Page */		
 	#captchaContainerContact {
 		position: relative;
 		left: -25px;
@@ -491,8 +497,15 @@ div.main_contact_area > table > tbody > tr > td {
 	.navbar-light .navbar-brand {
 		width: 66%;
 	}
+	div.main_contact_area > div:nth-child(2) > div > div.form-contact1 {
+		top: 3em;
+		left: 6em;
+	}
+	div.main_contact_area > div:nth-child(2) > div > div.form-contact2 {
+		top: 7em;
+		left: 1em;
+	}
 	div.main_contact_area div.card .card-body {
-		min-height: 590px;
 		border-radius: 5px;
 		padding-left: 45px;
 		padding-right: 85px;
