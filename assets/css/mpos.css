@@ -29,6 +29,7 @@ h2 { font-family: 'Cabin', sans-serif }
 .size-100 { width: 100% }
 
 .bg-navy { background-color: #29303e }
+.bg-halfblue { background-color: #354467}
 .bg-aqua { background-color: #005BAC}
 .bg-orange { background-color: #fb7c3b }
 .bg-white { background-color: #ffffff }
@@ -385,9 +386,18 @@ footer div#collapseThree > div > ul > li > a {
 }
 
 /* Contact Page */
-/* ================== */
+div.main_contact_area > table > tbody > tr > td {
+	color: #fff;
+}
 
-
+@media (max-width: 376.98px) {
+	/* Contact Page */
+	#captchaContainerContact {
+		position: relative;
+		left: -25px;
+		transform: scale(0.8);
+	}
+}
 
 @media (min-width: 576px) { 
 	nav.navbar a.navbar-brand img.img-fluid {
@@ -473,6 +483,7 @@ footer div#collapseThree > div > ul > li > a {
 		width: 100% !important;
 		float: none;
 	}
+
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -480,4 +491,22 @@ footer div#collapseThree > div > ul > li > a {
 	.navbar-light .navbar-brand {
 		width: 66%;
 	}
+	div.main_contact_area div.card .card-body {
+		min-height: 590px;
+		border-radius: 5px;
+		padding-left: 45px;
+		padding-right: 85px;
+	}
+	div.main_contact_area div.card .card-body input[type="text"],
+	div.main_contact_area div.card .card-body input[type="email"],
+	div.main_contact_area div.card .card-body select,
+	div.main_contact_area div.card .card-body textarea {
+		color: #4F4F4F;
+		min-height: 28px;
+		background-color: #eee;
+		border: none;
+		margin-top: 25px;
+		padding: 6px 6px 6px 14px;
+	}
+
  }
