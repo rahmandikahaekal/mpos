@@ -80,6 +80,16 @@ $(document).ready(function () {
         animateIn: 'SlideIn',
         items:1,
     })
+
+    $('.owl-side').owlCarousel({
+        margin: 10,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        animateOut: 'SlideOut',
+        animateIn: 'SlideIn',
+        items:1,
+    })
 })
 
 $(document).ready(function(){
@@ -91,3 +101,9 @@ $(document).ready(function(){
     });
 });
    
+var stickySidebar = new StickySidebar('#sidebar', {
+    topSpacing: 20,
+    bottomSpacing: 20,
+    containerSelector: '.container',
+    innerWrapperSelector: '.sidebar__inner'
+});
