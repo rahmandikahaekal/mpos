@@ -100,10 +100,3 @@ $(document).ready(function(){
         closeEffect: "none"
     });
 });
-   
-var stickySidebar = new StickySidebar('#sidebar', {
-    topSpacing: 20,
-    bottomSpacing: 20,
-    containerSelector: '.container',
-    innerWrapperSelector: '.sidebar__inner'
-});

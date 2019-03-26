@@ -516,15 +516,4 @@ div.main_contact_area > table > tbody > tr > td {
 		padding: 6px 6px 6px 14px;
 	}
 
-	#sidebar{
-		will-change: min-height;
-	}
-
-	#sidebar .owl-side {
-		position: relative;
-		transform: translate(0, 0);
-		transform: translate3d(0, 0, 0);
-		will-change: position, transform;
-	}
-
  }
