@@ -100,3 +100,13 @@ $(document).ready(function(){
         closeEffect: "none"
     });
 });
+
+$(function () {
+    $.scrollUp({
+        scrollName: 'scrollUp',
+        topDistance: '300',
+        topSpeed: 300,
+        animation: 'fade',
+        activeOverlay: false,
+    })
+})
